@@ -1,0 +1,267 @@
+#MainPage {
+  background-image: url(../../public/images/cafe_images/cafe_bg1.jpg);
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#MainPage #MainPage_Content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+#MainPage #MainPage_Content a img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#home #homeLogo {
+  width: 50%;
+}
+#home #homeLogo a {
+  display: flex;
+  justify-content: center;
+}
+#home #homeLogo a img {
+  width: 20%;
+}
+#home #homeContent {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 20px;
+}
+#home #homeContent #about,
+#home #homeContent #history,
+#home #homeContent #discover {
+  width: 30%;
+}
+#home #homeContent #about #about_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#home #homeContent #about #about_content #box {
+  width: 100%;
+}
+#home #homeContent #about #about_content #box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+}
+#home #menu {
+  width: 100%;
+  background: rgb(240, 240, 240);
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#home #menu #menuDescription {
+  padding: 30px;
+}
+#home #menu #menuDescription h1 {
+  font-size: 4rem;
+}
+#home #menu #menuCardItems {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+#home #menu #menuCardItems #innerMenuCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  background-color: white;
+  border-radius: 18px;
+}
+#home #menu #menuCardItems #innerMenuCard #menuBox {
+  display: flex;
+  justify-content: center;
+}
+#home #menu #menuCardItems #innerMenuCard #menuBox img {
+  width: 30%;
+}
+#home #reservation {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 800px !important;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://ajoals.com/wp-content/themes/ajoals/css/img/hp-bg1.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#home #reservation .reservationDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+  height: 200px;
+}
+#home #reservation .reservationDescription button {
+  border-radius: 9px;
+  transition: 1s all ease;
+}
+#home #reservation .reservationDescription button:hover {
+  background-color: white;
+}
+#home #reservation .reservationDescription button:hover h1 {
+  color: black;
+}
+#home #reservation .reservationDescription h1 {
+  color: white;
+}
+#home #reservation #reservationOptions {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+#home #reservation #reservationOptions span {
+  font-size: 2rem;
+}
+
+.carousel .carousel-item img {
+  width: 100%;
+  height: 400px;
+  border-radius: 18px;
+}
+
+#galery {
+  width: 100%;
+}
+#galery #galeryTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+#galery #galeryTitle h1 {
+  font-size: 5rem;
+}
+#galery #galeryItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+#galery #galeryItem ul li {
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+#galery #galeryItem #galeryImages {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+#galery #galeryItem #galeryImages img {
+  width: 350px;
+  height: 280px;
+  box-shadow: 0px 0px 20px black;
+  border-radius: 6px;
+}
+#galery #galeryItem ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 50%;
+}
+#galery #galeryItem #moreButtons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  padding: 70px;
+}
+footer .footerItemsContainer {
+  text-align: center;
+}
+footer .footerItemsContainer h1 {
+  color: white;
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  height: 100px;
+}
+footer ul li {
+  color: white;
+}
+
+#menuToMeals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#menuToMeals .mealsItemsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#menuToMeals .mealsItemsContainer .innerContainer {
+  width: 70%;
+}
+#menuToMeals .mealsItemsContainer .innerContainer .mealsItems {
+  width: 70%;
+}
+#menuToMeals .mealsItemsContainer .innerContainer .mealsItems #mealsInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#menuToMeals .mealsItemsContainer .innerContainer .mealsItems #mealsInfo h3::after {
+  content: ".................................................................................";
+  margin-left: 50px;
+}
+#menuToMeals .mealsItemsContainer .innerContainer .mealsItems #mealsInfo span {
+  color: #cda45e;
+}
+
+@media screen and (max-width: 576px) {
+  #MainPage {
+    background-image: url(../../public/images/cafe_images/cafe_bg1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #menuCardItems {
+    flex-direction: column;
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */

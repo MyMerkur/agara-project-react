@@ -1,0 +1,154 @@
+[
+    {
+        "id":1,
+        "src":"./images/cafe_images/316272225_140583395433757_3262408314559488697_n.jpg",
+        "category":"cafe",
+        "alt":"galeryImage",
+        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda aspernatur sint eum molestias illum dolorem. Ratione sapiente recusandae suscipit tempora officia. Tenetur ducimus voluptatum omnis corrupti, eligendi natus commodi.",
+        "title":"CAFE"
+    },
+    {
+        "id":2,
+        "src":"./images/cafe_images/317176375_229458322745389_5666275917653371421_n.webp.jpeg",
+        "category":"cafe",
+        "alt":"galeryImage",
+        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda aspernatur sint eum molestias illum dolorem. Ratione sapiente recusandae suscipit tempora officia. Tenetur ducimus voluptatum omnis corrupti, eligendi natus commodi.",
+        "title":"CAFE"
+    },
+    {
+        "id":3,
+        "src":"./images/cafe_images/323309320_1157677601550675_1092955125058651559_n.jpg",
+        "category":"cafe",
+        "alt":"galeryImage",
+        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda aspernatur sint eum molestias illum dolorem. Ratione sapiente recusandae suscipit tempora officia. Tenetur ducimus voluptatum omnis corrupti, eligendi natus commodi.",
+        "title":"CAFE"
+    },
+    {
+        "id":4,
+        "src":"./images/cafe_images/337170475_227355076469495_4519403653356903669_n.jpg",
+        "category":"cafe",
+        "alt":"galeryImage",
+        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda aspernatur sint eum molestias illum dolorem. Ratione sapiente recusandae suscipit tempora officia. Tenetur ducimus voluptatum omnis corrupti, eligendi natus commodi.",
+        "title":"CAFE"
+    },
+    {
+        "id":5,
+        "src":"./images/cafe_images/337500381_3418151875127196_2085514680576489663_n.jpg",
+        "category":"cafe",
+        "alt":"galeryImage",
+        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda aspernatur sint eum molestias illum dolorem. Ratione sapiente recusandae suscipit tempora officia. Tenetur ducimus voluptatum omnis corrupti, eligendi natus commodi.",
+        "title":"CAFE"
+    },
+    {
+        "id":6,
+        "src":"./images/cafe_images/339877562_780215263686514_234269700659767991_n.webp.jpeg",
+        "category":"cafe",
+        "alt":"galeryImage",
+        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda aspernatur sint eum molestias illum dolorem. Ratione sapiente recusandae suscipit tempora officia. Tenetur ducimus voluptatum omnis corrupti, eligendi natus commodi.",
+        "title":"CAFE"
+    },
+    {
+        "id":7,
+        "src":"./images/cafe_images/cafe_bg2.jpg",
+        "category":"cafe",
+        "alt":"galeryImage",
+        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda aspernatur sint eum molestias illum dolorem. Ratione sapiente recusandae suscipit tempora officia. Tenetur ducimus voluptatum omnis corrupti, eligendi natus commodi.",
+        "title":"CAFE"
+    },
+    {
+        "id":8,
+        "src":"./images/food_images/317746397_142269145265182_1520541733806703493_n.jpg",
+        "category":"meals",
+        "alt":"galeryImage",
+        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda aspernatur sint eum molestias illum dolorem. Ratione sapiente recusandae suscipit tempora officia. Tenetur ducimus voluptatum omnis corrupti, eligendi natus commodi.",
+        "title":"Meals"
+    },
+    {
+        "id":9,
+        "src":"./images/food_images/337150018_123524983975439_7588435271802245678_n.jpg",
+        "category":"meals",
+        "alt":"galeryImage",
+        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda aspernatur sint eum molestias illum dolorem. Ratione sapiente recusandae suscipit tempora officia. Tenetur ducimus voluptatum omnis corrupti, eligendi natus commodi.",
+        "title":"Meals"
+    },
+    {
+        "id":10,
+        "src":"./images/food_images/353036062_233631482795614_6721860875268771354_n.jpg",
+        "category":"meals",
+        "alt":"galeryImage",
+        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda aspernatur sint eum molestias illum dolorem. Ratione sapiente recusandae suscipit tempora officia. Tenetur ducimus voluptatum omnis corrupti, eligendi natus commodi.",
+        "title":"Meals"
+    },
+    {
+        "id":11,
+        "src":"./images/deserts_images/315500843_1125089394791760_6313285349220056151_n.jpg",
+        "category":"deserts",
+        "alt":"galeryImage",
+        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda aspernatur sint eum molestias illum dolorem. Ratione sapiente recusandae suscipit tempora officia. Tenetur ducimus voluptatum omnis corrupti, eligendi natus commodi.",
+        "title":"Deserts"
+    },
+    {
+        "id":12,
+        "src":"./images/deserts_images/317816580_142268415265255_8856813162143982304_n.jpg",
+        "category":"deserts",
+        "alt":"galeryImage",
+        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda aspernatur sint eum molestias illum dolorem. Ratione sapiente recusandae suscipit tempora officia. Tenetur ducimus voluptatum omnis corrupti, eligendi natus commodi.",
+        "title":"Deserts"
+    },
+    {
+        "id":13,
+        "src":"./images/deserts_images/317889076_142192995272797_288219144956142340_n.jpg",
+        "category":"deserts",
+        "alt":"galeryImage",
+        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda aspernatur sint eum molestias illum dolorem. Ratione sapiente recusandae suscipit tempora officia. Tenetur ducimus voluptatum omnis corrupti, eligendi natus commodi.",
+        "title":"Deserts"
+    },
+    {
+        "id":14,
+        "src":"./images/deserts_images/322385031_1403935916678372_5843269911019946122_n-1.jpg",
+        "category":"deserts",
+        "alt":"galeryImage",
+        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda aspernatur sint eum molestias illum dolorem. Ratione sapiente recusandae suscipit tempora officia. Tenetur ducimus voluptatum omnis corrupti, eligendi natus commodi.",
+        "title":"Deserts"
+    },
+    {
+        "id":15,
+        "src":"./images/drinks_images/314483127_2935281853443097_5720427922888710317_n.jpg",
+        "category":"drinks",
+        "alt":"galeryImage",
+        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda aspernatur sint eum molestias illum dolorem. Ratione sapiente recusandae suscipit tempora officia. Tenetur ducimus voluptatum omnis corrupti, eligendi natus commodi.",
+        "title":"Drinks"
+    },
+    {
+        "id":16,
+        "src":"./images/drinks_images/314608783_1130386187848086_2125708307551685377_n.jpg",
+        "category":"drinks",
+        "alt":"galeryImage",
+        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda aspernatur sint eum molestias illum dolorem. Ratione sapiente recusandae suscipit tempora officia. Tenetur ducimus voluptatum omnis corrupti, eligendi natus commodi.",
+        "title":"Drinks"
+    },
+    {
+        "id":17,
+        "src":"./images/drinks_images/316949076_141111765380920_1271893341308809194_n-1.jpg",
+        "category":"drinks",
+        "alt":"galeryImage",
+        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda aspernatur sint eum molestias illum dolorem. Ratione sapiente recusandae suscipit tempora officia. Tenetur ducimus voluptatum omnis corrupti, eligendi natus commodi.",
+        "title":"Drinks"
+    },
+    {
+        "id":18,
+        "src":"./images/drinks_images/318848502_851101362767130_9066299247770299593_n.jpg",
+        "category":"drinks",
+        "alt":"galeryImage",
+        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda aspernatur sint eum molestias illum dolorem. Ratione sapiente recusandae suscipit tempora officia. Tenetur ducimus voluptatum omnis corrupti, eligendi natus commodi.",
+        "title":"Drinks"
+    },
+    {
+        "id":19,
+        "src":"./images/drinks_images/361653865_17912529797788521_5415841420178863995_n.jpg",
+        "category":"drinks",
+        "alt":"galeryImage",
+        "content":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda aspernatur sint eum molestias illum dolorem. Ratione sapiente recusandae suscipit tempora officia. Tenetur ducimus voluptatum omnis corrupti, eligendi natus commodi.",
+        "title":"Drinks"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "category":"meals",
+        "title":"Ana Yemek-1",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex animi dicta voluptate saepe? Eligendi labore deleniti nesciunt natus cum doloremque nostrum exercitationem libero, aliquid ratione in nobis obcaecati, corporis nemo.",
+        "price":100
+    },
+    {
+        "id":2,
+        "category":"meals",
+        "title":"Ana Yemek-1",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex animi dicta voluptate saepe? Eligendi labore deleniti nesciunt natus cum doloremque nostrum exercitationem libero, aliquid ratione in nobis obcaecati, corporis nemo.",
+        "price":100
+    },
+    {
+        "id":3,
+        "category":"meals",
+        "title":"Ana Yemek-1",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex animi dicta voluptate saepe? Eligendi labore deleniti nesciunt natus cum doloremque nostrum exercitationem libero, aliquid ratione in nobis obcaecati, corporis nemo.",
+        "price":100
+    },
+    {
+        "id":4,
+        "category":"meals",
+        "title":"Ana Yemek-1",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex animi dicta voluptate saepe? Eligendi labore deleniti nesciunt natus cum doloremque nostrum exercitationem libero, aliquid ratione in nobis obcaecati, corporis nemo.",
+        "price":100
+    }
+]

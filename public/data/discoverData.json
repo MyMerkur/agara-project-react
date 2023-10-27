@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "title":"Cemal Turabi Kent Ormanı",
+        "content":"​Ardahan ili, Merkez ilçesi, Çamlıçatak Köyü sınırları içerisinde yer alan Cemal Tural Tabiat Parkı büyüklüğüne sahiptir. Ardahan İl merkezine 5 km uzaklıkta olup, Ardahan Üniversitesi Kampüsünün bulunduğu mevkide yer almaktadır.Orman ekosistemi ve çayırlık alanlar Tabiat Parkının ana kaynak değerlerini oluşturmaktadır.",
+        "src":"./images/discover/discover1.jpeg",
+        "alt":"image"
+    },
+    {
+        "id":2,
+        "title":"Çıldır Gölü",
+        "content":"Çıldır Gölü, Ardahan ve Kars il sınırları içerisinde kalan göl, 123 km² alanı ile Doğu Anadolu Bölgesi'nin en büyük tatlı su ve en büyük ikinci göldür. Deniz seviyesinden 1959 metre yükseklikte bulunan gölün en derin noktası 42 metredir. Çevresi ise yaklaşık 60 kilometredir.",
+        "src":"./images/discover/discover2.jpeg",
+        "alt":"image"
+    },
+    {
+        "id":3,
+        "title":"Ardahan Kalesi",
+        "content":"Ardahan Kalesi veya Parakan Kalesi, Ardahan kent merkezinde orta çağdan kalma bir kaledir. Kalenin iç ve dış cephelerinde taşa oyulmuş Gürcüce yazılar bulunmaktadır. İç kısımda ayrıca bir taşa kırmızı boyayla yazılmış Ermenice bir yazı yer alır.",
+        "src":"./images/discover/discover3.jpeg",
+        "alt":"image"
+    },
+    {
+        "id":4,
+        "title":"Şeytan Kalesi",
+        "content":"Şeytan Kalesi, Ardahan iline bağlı Çıldır ilçesinin Yıldırımtepe köyünde yer alan eski bir kaledir. Tarihsel Eruşeti bölgesindeki bu kale Gürcüce kaynaklarda “Kacistsihe” olarak geçer ve Osmanlıların bölgeyi ele geçirmesinden sonra kalenin adı Gürcüceden çevrilmiştir.",
+        "src":"./images/discover/discover4.jpeg",
+        "alt":"image"
+    }
+]
