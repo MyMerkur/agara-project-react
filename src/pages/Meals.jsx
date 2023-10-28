@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState,useEffect } from 'react';
 import '../style/style.css'
+import { Image } from '@chakra-ui/react';
 export default function Meals() {
       const [data,setData] = useState([]);
       const [loading,setLoading] = useState(true);
@@ -28,8 +29,14 @@ export default function Meals() {
   return (
     <div id='menuToMeals'>
       <h1>MENÜ</h1>
+      <Image
+        id='menuLogo'
+        borderRadius='full'
+        boxSize='850px'
+        src='/images/logo.png'
+        alt='Dan Abramov'
+      />
       <div className='mealsItemsContainer'> 
-      
         {data.map((item)=>(
           <div className='innerContainer' key={item.id}>
              <div className='mealsItems' >
