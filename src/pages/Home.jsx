@@ -24,6 +24,8 @@ export default function Home() {
             accusantium! Accusantium iste voluptas deserunt adipisci quod eaque consequuntur illum minus incidunt
             fuga consequatur nesciunt totam vitae sed possimus blanditiis assumenda cum aperiam, atque sit ad sunt
             iusto saepe. Molestias, tenetur.
+
+            <h1>Merhaba</h1>
           </p>
 
           <HomeCarousel></HomeCarousel>
