@@ -25,7 +25,7 @@ export default function Home() {
             fuga consequatur nesciunt totam vitae sed possimus blanditiis assumenda cum aperiam, atque sit ad sunt
             iusto saepe. Molestias, tenetur.
 
-            <h1>Merhaba</h1>
+            
           </p>
 
           <HomeCarousel></HomeCarousel>
