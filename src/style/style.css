@@ -1,6 +1,6 @@
 #MainPage {
   background-image: url(../../public/images/cafe_images/cafe_bg1.jpg);
-  height: 1000px;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,7 +76,7 @@
   justify-content: space-evenly;
   padding: 20px;
 }
-#home #menu #menuCardItems #innerMenuCard {
+#home #menu #menuCardItems .innerMenuCard {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -87,11 +87,11 @@
   background-color: white;
   border-radius: 18px;
 }
-#home #menu #menuCardItems #innerMenuCard #menuBox {
+#home #menu #menuCardItems .innerMenuCard #menuBox {
   display: flex;
   justify-content: center;
 }
-#home #menu #menuCardItems #innerMenuCard #menuBox img {
+#home #menu #menuCardItems .innerMenuCard #menuBox img {
   width: 30%;
 }
 #home #reservation {
@@ -277,6 +277,18 @@ footer ul li {
   }
   #menuCardItems {
     flex-direction: column;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  #menu #menuCardItems .innerMenuCard {
+    width: 450px !important;
+  }
+  #homeContent #history,
+  #homeContent #about {
+    width: 40% !important;
+  }
+  #galery #galeryItem #galeryImages {
     width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

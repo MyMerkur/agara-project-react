@@ -30,7 +30,7 @@ export default function MenuCard() {
   return (
     <div id='menuCardItems'>
       {data.map((item) => (
-            <div data-aos="fade-up" id='innerMenuCard' key={item.id}>    
+            <div data-aos="fade-up" className='innerMenuCard' key={item.id}>    
                 <Box id='menuBox' boxSize='sm'>
                     <Image src={item.src} alt={item.alt} />
                 </Box>

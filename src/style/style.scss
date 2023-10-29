@@ -6,7 +6,7 @@
 
 #MainPage {
     background-image: url(../../public/images/cafe_images/cafe_bg1.jpg);
-    height: 1000px;
+    height: 100vh;
     @include ortala;
 
     #MainPage_Content {
@@ -92,7 +92,7 @@
             justify-content: space-evenly;
          
             padding: 20px;
-            #innerMenuCard{
+            .innerMenuCard{
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -308,5 +308,30 @@ footer{
     #menuCardItems{
         flex-direction: column;
         width: 100%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    #menu{
+        #menuCardItems{
+             .innerMenuCard{
+                width: 450px !important;
+            }
+        }
+    }
+
+    #homeContent{
+           #history,
+           #about{
+            width: 40% !important;
+           }
+    }
+
+    #galery{
+        #galeryItem{
+            #galeryImages{
+                width: 100%;
+            }
+        }
     }
 }
