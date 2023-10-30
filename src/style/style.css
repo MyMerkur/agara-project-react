@@ -73,26 +73,56 @@
 }
 #home #menu #menuCardItems {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
 }
-#home #menu #menuCardItems .innerMenuCard {
+#home #menu #menuCardItems ul {
+  display: flex;
+}
+#home #menu #menuCardItems ul .innerMenuCard {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 500px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   text-align: center;
-  background-color: white;
-  border-radius: 18px;
+  border-radius: 50%;
 }
-#home #menu #menuCardItems .innerMenuCard #menuBox {
+#home #menu #menuCardItems ul .innerMenuCard a {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#home #menu #menuCardItems ul .innerMenuCard a img {
+  width: 30%;
+}
+#home #menu #menuCardItems ul .innerMenuCard a h5 {
+  padding: 10px;
+}
+#home #menu #menuCardItems .menuData {
+  list-style: none;
+  width: 60%;
+  height: 100%;
+  flex-wrap: wrap;
   justify-content: center;
 }
-#home #menu #menuCardItems .innerMenuCard #menuBox img {
-  width: 30%;
+#home #menu #menuCardItems .menuData li {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+}
+#home #menu #menuCardItems .menuData li img {
+  width: 15%;
+  border-radius: 50%;
+}
+#home #menu #menuCardItems .menuData .menuDescription {
+  display: flex;
+  flex-direction: column;
 }
 #home #reservation {
   display: flex;
@@ -222,51 +252,6 @@ footer ul li {
   color: white;
 }
 
-#menuToMeals {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  position: relative;
-}
-#menuToMeals #menuLogo {
-  z-index: 0;
-  filter: blur(5.3px);
-}
-#menuToMeals .mealsItemsContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 80px;
-  z-index: 1;
-  position: absolute;
-  top: 0;
-}
-#menuToMeals .mealsItemsContainer .innerContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 70%;
-}
-#menuToMeals .mealsItemsContainer .innerContainer .mealsItems {
-  width: 70%;
-}
-#menuToMeals .mealsItemsContainer .innerContainer .mealsItems #mealsInfo {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-#menuToMeals .mealsItemsContainer .innerContainer .mealsItems #mealsInfo h3::after {
-  content: ".................................................................................";
-  margin-left: 50px;
-}
-#menuToMeals .mealsItemsContainer .innerContainer .mealsItems #mealsInfo span {
-  color: #cda45e;
-}
-#menuToMeals .mealsItemsContainer .innerContainer .mealsItems p {
-  color: black;
-}
-
 @media screen and (max-width: 576px) {
   #MainPage {
     background-image: url(../../public/images/cafe_images/cafe_bg1.jpg);
@@ -280,10 +265,7 @@ footer ul li {
     width: 100%;
   }
 }
-@media screen and (min-width: 768px) {
-  #menu #menuCardItems .innerMenuCard {
-    width: 450px !important;
-  }
+@media screen and (min-width: 992px) {
   #homeContent #history,
   #homeContent #about {
     width: 40% !important;

@@ -2,25 +2,19 @@
     {
         "id":1,
         "title":"Ana Yemekler",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus.",
-        "src":"./images/menu_icons/food.svg",
-        "alt":"menu",
-        "href":"/meals"
+        "category":"meals",
+        "src":"./images/menu_icons/food.svg"
     },
     {
         "id":2,
         "title":"İçecekler",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus.",
-        "src":"./images/menu_icons/hot-coffee.svg",
-        "alt":"menu",
-        "href":"/drinks"
+        "category":"drinks",
+        "src":"./images/menu_icons/hot-coffee.svg"
     },
     {
         "id":3,
         "title":"Tatlılar",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus.",
-        "src":"./images/menu_icons/slice-of-cake.svg",
-        "alt":"menu",
-        "href":"/deserts"
+        "category":"deserts",
+        "src":"./images/menu_icons/slice-of-cake.svg"
     }
 ]
