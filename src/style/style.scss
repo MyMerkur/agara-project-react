@@ -111,18 +111,21 @@
                     height: 200px;
                     text-align: center;
                     border-radius: 50%;
-                a{
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    img {
-                        width: 30%;
+                    transition: all 0.5s ease;
+                    a{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        img {
+                            width: 40%;
+                        }
+                        h5{
+                            padding: 10px;
+                        }
                     }
-                    h5{
-                        padding: 10px;
+                    &:hover img{
+                        width: 50%;
                     }
-                }
-                    
 
             }
             }
@@ -170,25 +173,19 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: space-between;
+            justify-content: center;
             width: 20%;
             height: 200px;
 
-            button {
-                border-radius: 9px;
-                transition: 1s all ease;
-
-                &:hover {
-                    background-color: white;
-                }
-
-                &:hover h1 {
-                    color: black;
-                }
-            }
-
             h1 {
                 color: white;
+            }
+            .reservationForm{
+                form{
+                    input{
+                        text-transform: capitalize;
+                    }
+                }
             }
         }
 

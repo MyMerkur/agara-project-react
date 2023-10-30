@@ -1,10 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import HomeCarousel from '../components/HomeCarousel';
 import About from './About';
 import Menu from './Menu';
 import Galery from './Galery';
 import Footer from './Footer';
+import Reservation from './Reservation'
 export default function Home() {
   return (
     <div id='home'>
@@ -57,27 +58,14 @@ export default function Home() {
       <div id='reservation'>
         <div id='reservationOptions'>
           <div className='reservationDescription'>
-            <Link to="/reservation">
-              <button>
-                <h1>REZERVASYON</h1>
-              </button>
-            </Link>
-            <p>
-              Bizimle bir masa ayırtmak için hemen rezervasyon yapın ve keyifli bir akşamın kapılarını aralayın. Bekliyoruz!
-            </p>
+          <div>
+              <h1>REZERVASYON</h1>
+              <p>
+                Bizimle bir masa ayırtmak için hemen rezervasyon yapın ve keyifli bir akşamın kapılarını aralayın. Bekliyoruz!
+              </p>
           </div>
-
-          <div className='reservationDescription'>
-            <Link to="/contact">
-              <button>
-                <h1>İLETİŞİM</h1>
-              </button>
-            </Link>
-            <p>
-            Ayrıca, bizimle iletişime geçebilir rezervasyon taleplerinizi buradan bize iletebilirsiniz. Size en kısa sürede yanıt vermeyi taahhüt ediyoruz.
-            </p>
+                <Reservation/>
           </div>
-
         </div>
       </div>
 

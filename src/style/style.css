@@ -90,6 +90,7 @@
   height: 200px;
   text-align: center;
   border-radius: 50%;
+  transition: all 0.5s ease;
 }
 #home #menu #menuCardItems ul .innerMenuCard a {
   display: flex;
@@ -97,10 +98,13 @@
   align-items: center;
 }
 #home #menu #menuCardItems ul .innerMenuCard a img {
-  width: 30%;
+  width: 40%;
 }
 #home #menu #menuCardItems ul .innerMenuCard a h5 {
   padding: 10px;
+}
+#home #menu #menuCardItems ul .innerMenuCard:hover img {
+  width: 50%;
 }
 #home #menu #menuCardItems .menuData {
   list-style: none;
@@ -142,22 +146,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 20%;
   height: 200px;
 }
-#home #reservation .reservationDescription button {
-  border-radius: 9px;
-  transition: 1s all ease;
-}
-#home #reservation .reservationDescription button:hover {
-  background-color: white;
-}
-#home #reservation .reservationDescription button:hover h1 {
-  color: black;
-}
 #home #reservation .reservationDescription h1 {
   color: white;
+}
+#home #reservation .reservationDescription .reservationForm form input {
+  text-transform: capitalize;
 }
 #home #reservation #reservationOptions {
   display: flex;
