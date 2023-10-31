@@ -34,29 +34,24 @@
   width: 20%;
 }
 #home #homeContent {
-  display: flex;
-  justify-content: space-evenly;
   text-align: center;
-  padding: 20px;
 }
-#home #homeContent #about,
-#home #homeContent #history,
+#home #homeContent .innerHistory {
+  display: flex;
+  justify-content: center;
+}
+#home #homeContent .innerHistory .homeIntro {
+  position: absolute;
+  z-index: 1;
+  width: 70%;
+  height: 100%;
+}
+#home #homeContent .innerHistory img {
+  position: relative;
+  z-index: 0;
+}
 #home #homeContent #discover {
   width: 30%;
-}
-#home #homeContent #about #about_content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-#home #homeContent #about #about_content #box {
-  width: 100%;
-}
-#home #homeContent #about #about_content #box img {
-  width: 100%;
-  height: 100%;
-  border-radius: 18px;
 }
 #home #menu {
   width: 100%;
@@ -263,10 +258,6 @@ footer ul li {
   }
 }
 @media screen and (min-width: 992px) {
-  #homeContent #history,
-  #homeContent #about {
-    width: 40% !important;
-  }
   #galery #galeryItem #galeryImages {
     width: 100%;
   }

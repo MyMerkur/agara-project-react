@@ -1,5 +1,6 @@
 import React from 'react';
 import '../style/style.css'
+import { PhoneIcon,EmailIcon,TriangleDownIcon } from '@chakra-ui/icons';
 export default function Footer() {
     return (
         <footer>
@@ -13,23 +14,13 @@ export default function Footer() {
             </div>
 
             <div className='footerItemsContainer'>
-                <h1>Menü</h1>
-                <ul>
-                    <li>Ana Yemekler</li>
-                    <li>Tatlılar</li>
-                    <li>içecekler</li>
-                    <li>Aparetifler</li>
-                </ul>
-
-            </div>
-
-
-            <div className='footerItemsContainer'>
+            
                 <h1>İletişim</h1>
                 <ul>
-                    <li>Halilefendi, Kahramanlar Cd. No:38, 75000 Merkez/Ardahan</li>
-                    <li>0544 275 19 62</li>
-                    <li>agara@icloud.com</li>
+                    <li> <TriangleDownIcon/> Halilefendi, Kahramanlar Cd. No:38, 75000 Merkez/Ardahan</li>
+
+                    <li> <PhoneIcon/> 0544 275 19 62</li>
+                    <li> <EmailIcon/> agara@icloud.com</li>
                 </ul>
             </div>
 

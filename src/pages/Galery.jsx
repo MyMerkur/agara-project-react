@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../style/style.css'
 import { Image } from '@chakra-ui/react'
 import { Box } from '@chakra-ui/react';
-
+import { TriangleDownIcon,TriangleUpIcon } from '@chakra-ui/icons';
 import {
     Modal,
     ModalOverlay,
@@ -86,16 +86,16 @@ export default function Galery() {
                         onClick={loadMoreImages}
                         style={{ display: filteredData.length === visibleImages ? 'block' : 'none' }}
                     >
-                        Daha Fazla
+                       Daha Fazla <TriangleDownIcon/>
                     </button>
                     {loadLess && (
-                        <button onClick={loadLessImages}>Daha Az</button>
+                        <button onClick={loadLessImages}>Daha Az <TriangleUpIcon/></button>
                     )}
                 </div>
             )}
-            <Modal isOpen={isOpen} onClose={onClose}>
+            <Modal  isOpen={isOpen} onClose={onClose}>
                 <ModalOverlay opacity={0} />
-                <ModalContent backgroundColor="transparent">
+                <ModalContent  boxShadow="none" backgroundColor="transparent">
                     <ModalBody padding={0}>
                         {selectedImage && (
                             <Box boxSize='xl'>

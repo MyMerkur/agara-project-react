@@ -44,37 +44,27 @@
     }
 
     #homeContent {
-        display: flex;
-        justify-content: space-evenly;
         text-align: center;
-        padding: 20px;
-
-        #about,
-        #history,
+        .innerHistory{
+            display: flex;
+            justify-content: center;
+            .homeIntro{
+                position: absolute;
+                z-index: 1;
+                width: 70%;
+                height: 100%;
+                
+            }
+            img{
+                position: relative;
+                z-index: 0;
+            }
+        }
         #discover {
             width: 30%;
         }
 
-        #about {
-            #about_content {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-
-                #box {
-                    width: 100%;
-
-                    img {
-                        width: 100%;
-                        height: 100%;
-                        border-radius: 18px;
-                    }
-                }
-
-            }
-
-        }
+       
 
     }
 
@@ -270,6 +260,7 @@
             width: 30%;
         }
     }
+  
 }
 
 footer {
@@ -319,13 +310,6 @@ footer {
 
 @media screen and (min-width: 992px) {
 
-    #homeContent {
-
-        #history,
-        #about {
-            width: 40% !important;
-        }
-    }
 
     #galery {
         #galeryItem {
